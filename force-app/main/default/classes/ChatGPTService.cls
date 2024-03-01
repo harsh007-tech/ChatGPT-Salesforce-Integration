@@ -1,26 +1,4 @@
-/*
- * Copyright  2023 , Author - Jitendra Zaa
- * 
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- * 
- *        https://www.apache.org/licenses/LICENSE-2.0
- * 
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- * 
- *         https://wwww.jitendraZaa.com
- * 
- * @date          March 2023
- * @author        Jitendra Zaa
- * @email         jitendra.zaa+30@gmail.com
- * @description   Apex class to interact with chat GPT Web Service
- */ 
-public with sharing class ChatGPTService {
+`public with sharing class ChatGPTService {
     private static final String API_KEY = System.label.chatGPTAPIKey; // Replace with your actual API key
     private static final String ENDPOINT_URL = 'https://api.openai.com/v1/chat/completions';
 
